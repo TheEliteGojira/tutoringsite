@@ -426,6 +426,15 @@ a { color: inherit; text-decoration: none; }
   color: var(--text-muted);
 }
 
+/* TEMP — portrait hidden until a real headshot photo is ready to drop in.
+   Delete this rule to bring the frame back into the hero layout; all of
+   its sizing/styling above (and the markup comment in index.html) is
+   left intact and ready to go. display: none removes it from the flex
+   flow entirely, so .hero__intro quietly reclaims the full row. */
+.hero__portrait {
+  display: none;
+}
+
 /* ═══════════════════════════════════════════════════════════
    Sections (below the hero)
    ═══════════════════════════════════════════════════════════ */
