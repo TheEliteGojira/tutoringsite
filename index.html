@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Rivera — Rivera Tutoring</title>
+  <meta name="description" content="Gabriel Rivera — Mathematics Tutor in NYC. Algebra focus, Elementary through Trigonometry." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<div class="site-frame">
+
+  <!-- NAV ─────────────────────────────────────────────────── -->
+  <header class="nav" id="nav">
+    <div class="nav__inner wrap">
+      <a href="#hero" class="nav__logo" aria-label="Home">
+        <span class="nav__monogram">[Rivera Tutoring]</span>
+      </a>
+      <nav class="nav__links" id="nav-links" aria-label="Primary">
+        <a href="#hero"     class="nav__link">Home</a>
+        <a href="#services" class="nav__link">Subjects</a>
+        <a href="#about"    class="nav__link">About</a>
+        <a href="#contact"  class="nav__link">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <span class="nav__status" aria-hidden="true">[ AVAILABLE ]</span>
+        <button class="nav__burger" id="nav-burger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO ────────────────────────────────────────────────── -->
+    <section class="hero" id="hero">
+      <div class="hud-window hud-window--hero">
+        <div class="hero__intro">
+          <p class="hero__eyebrow">Mathematics Tutor — New York City</p>
+          <h1 class="hero__name">Gabriel A. A. Rivera</h1>
+          <p class="hero__tagline">
+            One-on-One math tutoring from elementary through trigonometry —
+            each student is different; sincerely, a former student!
+          </p>
+          <div class="hero__actions">
+            <a href="#contact"  class="btn btn--accent">Book a Session</a>
+            <a href="#services" class="btn btn--secondary">View Curriculum</a>
+          </div>
+          <p class="hero__avail">
+            <span class="hero__avail-dot" aria-hidden="true"></span>
+            Available for sessions!
+          </p>
+        </div>
+
+        <!-- Portrait slot — placeholder frame for a future headshot.
+             To drop in a real photo, replace the <span> below with:
+               <img class="hero__portrait-img" src="assets/your-photo.jpg" alt="Gabriel Rivera">
+             and remove aria-hidden="true" so the alt text is announced. -->
+        <div class="hero__portrait" aria-hidden="true">
+          <span class="hero__portrait-tag">[ PORTRAIT ]</span>
+        </div>
+      </div>
+    </section><!-- /.hero -->
+
+
+
+    <!-- SERVICES ─────────────────────────────────────────────── -->
+    <section class="section services" id="services">
+      <div class="wrap">
+
+        <h2 class="section__title">Subjects</h2>
+
+        <div class="panel__hdr services__panel-hdr">:: COVERED.SUBJECTS // 06 ENTRIES</div>
+        <div class="services__grid">
+
+          <!-- ENTRY 001 — Elementary -->
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">ELEM</div>
+            <div class="card__header">
+              <h3 class="card__title">Elementary Math</h3>
+              <span class="card__level">K–5</span>
+            </div>
+            <p class="card__desc">
+              Whole numbers, basic operations, fractions, decimals, and an introduction
+              to geometry. Building a strong numerical foundation before symbolic algebra.
+            </p>
+            <div class="card__tags">
+              <span class="tag">◆ Numbers</span>
+              <span class="tag">◆ Fractions</span>
+              <span class="tag">◆ Geometry Intro</span>
+            </div>
+          </article>
+
+          <!-- ENTRY 002 — Pre-Algebra -->
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">PRE</div>
+            <div class="card__header">
+              <h3 class="card__title">Pre-Algebra</h3>
+              <span class="card__level">Gr. 6–8</span>
+            </div>
+            <p class="card__desc">
+              Integers, ratios, proportions, and first-contact with variables and
+              equations. The bridge between arithmetic and formal algebra.
+            </p>
+            <div class="card__tags">
+              <span class="tag">◆ Integers</span>
+              <span class="tag">◆ Ratios</span>
+              <span class="tag">◆ Intro Equations</span>
+            </div>
+          </article>
+
+          <!-- ENTRY 003 — Algebra I (focus) -->
+          <article class="card card--focus reveal">
+            <div class="card__icon" aria-hidden="true">ALG1</div>
+            <div class="card__header">
+              <h3 class="card__title">Algebra I</h3>
+              <span class="card__level card__level--focus">★ Focus</span>
+            </div>
+            <p class="card__desc">
+              Linear equations and inequalities, systems of equations, polynomials,
+              factoring, and an introduction to quadratics. Core high-school math.
+            </p>
+            <div class="card__tags">
+              <span class="tag">◆ Linear Eq.</span>
+              <span class="tag">◆ Systems</span>
+              <span class="tag">◆ Polynomials</span>
+            </div>
+          </article>
+
+          <!-- ENTRY 004 — Algebra II (focus) -->
+          <article class="card card--focus reveal">
+            <div class="card__icon" aria-hidden="true">ALG2</div>
+            <div class="card__header">
+              <h3 class="card__title">Algebra II</h3>
+              <span class="card__level card__level--focus">★ Focus</span>
+            </div>
+            <p class="card__desc">
+              Functions (quadratic, rational, radical), logarithms, complex numbers,
+              sequences and series, and conic sections.
+            </p>
+            <div class="card__tags">
+              <span class="tag">◆ Functions</span>
+              <span class="tag">◆ Logarithms</span>
+              <span class="tag">◆ Complex Nums.</span>
+            </div>
+          </article>
+
+          <!-- ENTRY 005 — Geometry -->
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">GEO</div>
+            <div class="card__header">
+              <h3 class="card__title">Geometry</h3>
+              <span class="card__level">Gr. 9–11</span>
+            </div>
+            <p class="card__desc">
+              Formal proofs, triangle congruence and similarity, circles, area and
+              volume, coordinate geometry, and geometric transformations.
+            </p>
+            <div class="card__tags">
+              <span class="tag">◆ Proofs</span>
+              <span class="tag">◆ Triangles</span>
+              <span class="tag">◆ Circles</span>
+            </div>
+          </article>
+
+          <!-- ENTRY 006 — Trigonometry -->
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">TRIG</div>
+            <div class="card__header">
+              <h3 class="card__title">Trigonometry</h3>
+              <span class="card__level">Gr. 10–12</span>
+            </div>
+            <p class="card__desc">
+              Trigonometric functions and the unit circle, identities, inverse trig,
+              graphs, and the laws of sines and cosines.
+            </p>
+            <div class="card__tags">
+              <span class="tag">◆ Unit Circle</span>
+              <span class="tag">◆ Identities</span>
+              <span class="tag">◆ Laws of Sines</span>
+            </div>
+          </article>
+
+        </div><!-- /.services__grid -->
+      </div>
+    </section>
+
+
+    <!-- ABOUT ────────────────────────────────────────────────── -->
+    <section class="section about" id="about">
+      <div class="wrap">
+
+        <h2 class="section__title">About</h2>
+
+        <div class="about__grid">
+
+          <!-- Bio panel -->
+          <div class="about__bio reveal">
+            <div class="panel__hdr">:: BIOGRAPHY</div>
+            <!-- TEMP COPY — replace with your own bio before launch -->
+            <div class="about__bio-body">
+              <p>
+                Hi, I'm Gabriel Rivera — an undergraduate student in engineering who's
+                spent the last few months helping students from elementary school
+                through high school get comfortable with math instead of dreading
+                it. I got into tutoring because I love the moment a concept finally
+                clicks, and I've built my approach around reaching that moment
+                faster: clear explanations, plenty of practice, and a lot of patience.
+              </p>
+              <p>
+                Algebra is where I focus most of my energy, because it's the
+                foundation everything else is built on — once a student feels steady
+                solving equations and working with variables, geometry, trigonometry,
+                and beyond all become a lot less intimidating. I went through these
+                same classes myself not long ago, so I have a good sense of where
+                students tend to get stuck, and I try to meet them there instead of
+                just repeating the textbook explanation.
+              </p>
+              <p>
+                I offer both in-person sessions around the Bronx-Manhattan area
+                and remote sessions over video call, with flexible scheduling for
+                steady weekly support, test prep, or a one-time review before a big
+                exam. If you're not sure where to start, reach out — an assessment
+                session is a low-pressure way to figure out a plan together.
+              </p>
+            </div>
+          </div>
+
+          <!-- Stat circles -->
+          <div class="about__stats reveal">
+            <div class="stat-circle">
+              <div class="stat-circle__ring"></div>
+              <div class="stat-circle__inner">
+                <span class="stat-circle__value">6</span>
+                <span class="stat-circle__label">Subjects</span>
+              </div>
+            </div>
+            <div class="stat-circle">
+              <div class="stat-circle__ring"></div>
+              <div class="stat-circle__inner">
+                <span class="stat-circle__value">K–12</span>
+                <span class="stat-circle__label">Grades</span>
+              </div>
+            </div>
+            <div class="stat-circle">
+              <div class="stat-circle__ring"></div>
+              <div class="stat-circle__inner">
+                <span class="stat-circle__value">NYC</span>
+                <span class="stat-circle__label">Location</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /.about__grid -->
+      </div>
+    </section>
+
+
+    <!-- CONTACT ─────────────────────────────────────────────── -->
+    <section class="section contact" id="contact">
+      <div class="wrap">
+
+        <h2 class="section__title">Contact</h2>
+
+        <div class="contact__panel reveal">
+          <div class="panel__hdr">:: CONTACT</div>
+          <div class="contact__inner">
+            <h3 class="contact__heading">Schedule an assessment session today:</h3>
+
+            <div class="contact__details">
+              <a href="tel:+6466605650" class="contact__detail">(646) 660-5650</a>
+              <a href="mailto:aaryairivera@gmail.com" class="contact__detail">aaryairivera@gmail.com</a>
+            </div>
+
+            <!-- TEMP COPY — replace with your own invite copy before launch -->
+            <p class="contact__invite">
+              An assessment session is a relaxed, no-pressure first step — we'll
+              talk through where a student is at, what's felt tricky lately, and
+              what a plan forward could look like. No homework, no obligation — 
+              just a starter for us to get warmed up. Call, text, or email me to 
+              find a time that works!
+            </p>
+
+            <div class="contact__socials">
+              <a href="https://github.com/[username]" target="_blank" rel="noopener"
+                 class="social-link">GitHub</a>
+              <a href="https://linkedin.com/in/[username]" target="_blank" rel="noopener"
+                 class="social-link">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER ──────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span class="footer__copy">© <span id="year"></span> Gabriel Rivera</span>
+      <span class="version-badge" id="version-badge">α 1.0.0</span>
+    </div>
+  </footer>
+
+
+</div><!-- /.site-frame -->
+
+<script src="js/nav.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
