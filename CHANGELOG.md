@@ -50,3 +50,14 @@ the personal site. `initCmdLine` handles subject query input: subject names scro
 
 `CLAUDE.md`, `CHANGELOG.md`, `README.md`, `.gitignore` added per project-template conventions.
 *(index.html, css/styles.css, js/nav.js, js/script.js, CLAUDE.md, CHANGELOG.md, README.md, .gitignore)*
+
+---
+
+## COMMIT #2 / α 1.1.0
+Desktop hero polish and favicon. With the portrait slot temporarily hidden,
+`.hud-window--hero` switched from `justify-content: space-between` to `center` so the
+intro block sits balanced in the window instead of flush-left with empty space on the
+right; `.hero__intro` `max-width` increased from 620px to 720px to use more of that
+space. Added `assets/favicon.svg`, a solid hex-motif shape in `--accent` red,
+referenced via `<link rel="icon">` in `index.html`. Version badge bumped to α 1.1.0.
+*(index.html, css/styles.css, assets/favicon.svg, CLAUDE.md)*

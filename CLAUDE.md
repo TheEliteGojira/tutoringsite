@@ -224,9 +224,9 @@ Version is displayed in the UI via `#version-badge` in the footer. Update it in
       `mailto:` in `index.html`. Currently `href="#contact"`.
       *(index.html)*
 
-- [ ] **Favicon** — Add a favicon using the hex motif in red. Place in `assets/` and
-      reference via `<link rel="icon">` in `index.html`.
-      *(index.html, assets/)*
+- [x] **Favicon** — Added `assets/favicon.svg`, a solid hex-motif shape in
+      `--accent` red, referenced via `<link rel="icon">` in `index.html`.
+      *(index.html, assets/favicon.svg)*
 
 - [ ] **Mobile polish pass** — Test at 375px and 414px widths. HUD panels likely need
       adjustments for the carousel arrow spacing and card grid.
